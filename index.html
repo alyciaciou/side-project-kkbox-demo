@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <title>KKBOX DEMO</title>
+</head>
+<body class="bg-black1">
+    <nav class=" sticky-top d-sm-flex bg-black bg-opacity-75 text-light">
+      <div class="container  d-sm-flex align-items-center justify-content-between py-1">
+        <p class="h1 fw-bolder fs-2 text-center"><a class="link-light text-decoration-none " href="./index.html">音樂榜</a></p>
+        <div class="text-center d-sm-flex align-items-center" >
+            <input class="me-2  form-control fw-bolder" type="search" value="" placeholder="請輸入歌名" data-searchArea="searchArea">
+            <button type="button" class="btn btn-outline-light text-nowrap fw-bolder" data-searchBtn="searchBtn" >搜歌</button>
+        </div>
+      </div>
+    </nav>
+    <div class="banner  mb-10 bg-cover bg-opacity-100 d-flex flex-column justify-content-end" >
+      <img src="" alt="">
+      <div class="title fw-bolder text-center h2 text-light display-3">
+        <p class="pe-10">來音樂的世界</p>
+        <p class="ps-10">聽世界的音樂</p>
+      </div>
+    </div>
+
+      <div class="content container text-center text-light mb-10">
+        <h2 class="mb-5 fw-bolder">一起享受世界的聲音</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4 align-items-center">
+          <div class="col">
+            <i class="bi bi-music-note-list display-1 mb-4"></i>
+            <div class="card bg-black2 h-100 mt-3 rounded-2">
+              <div class="card-body bg-hover">
+                <h3 class="card-title mb-3">即時新歌</h3>
+                <p class="card-text">提供最新的歌曲<br>中英日韓，任您挑選</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <i class="bi bi-youtube display-1 mb-4"></i>
+            <div class=" card bg-black2 h-100  mt-3 rounded-2">
+              <div class="card-body bg-hover">
+                <h3 class="card-title mb-3">串接YouTube</h3>
+                <p class="card-text">除了聲音上的享受<br>也滿足您的視覺</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <i class="bi bi-chat-heart display-1 mb-4" ></i>
+            <div class="card bg-black2 h-100  mt-3 rounded-2">
+              <div class="card-body bg-hover">
+                <h3 class="card-title mb-3">情境歌單</h3>
+                <p class="card-text">挑選符合您<br>此刻的心情的歌單吧！</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <main class="mb-10">
+        <div class="container">
+            <div class="chartPlaylists mb-5">
+                <div class=" d-flex align-items-center justify-content-center mb-3">
+                    <p class="h3 display-6 fw-bolder me-5 text-light">新歌即時榜 TOP 4</p>
+                    <a class=" text-decoration-none text-nowrap btn btn-outline-light fw-bolder" href="./pages/charts.html">完整榜單</a>
+                </div>
+                <div class="row row-cols-1 row-cols-md-4 g-4 justify-content-center" data-chartSongs="chartSongs">
+                  <div class="text-center">
+                    <div class="spinner-border text-light" role="status">
+                      <span class="visually-hidden">Loading...</span>
+                    </div>
+                  </div>
+                    <!-- <div class="col">
+                      <div class="card border border-4 h-100">
+                        <img src="https://i.kfs.io/playlist/global/59599602v1259/cropresize/300x300.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer </p>
+                        </div>
+                      </div>
+                    </div> -->
+                  </div>
+            </div>
+            <div class="hitsPlaylists mb-5">
+                <p class="h3 display-6 fw-bolder text-light text-center mb-3">速爆新歌</p>
+                <div class="hitsSongs row row-cols-1 row-cols-md-4 g-4 justify-content-center" data-hitsSongs="hitsSongs">
+                  <div class="text-center">
+                    <div class="spinner-border text-light" role="status">
+                      <span class="visually-hidden">Loading...</span>
+                    </div>
+                  </div>
+                    <!-- <div class="col">
+                      <div class="card border border-4 h-100">
+                        <img src="https://i.kfs.io/playlist/global/26541395v637/cropresize/300x300.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer </p>
+                        </div>
+                      </div>
+                    </div> -->
+                  </div>
+            </div>
+            <div class="sessionPlaylists">
+                <p class="h3 display-6 fw-bolder text-light text-center mb-3">情境歌單</p>
+                <div class="sessionSongs row row-cols-1 row-cols-md-4 g-4 justify-content-center" data-sessionSongs="sessionSongs">
+                  <div class="text-center">
+                    <div class="spinner-border text-light" role="status">
+                      <span class="visually-hidden">Loading...</span>
+                    </div>
+                  </div>
+                    <!-- <div class="col">
+                      <div class="card border border-4 h-100">
+                        <img src="https://i.kfs.io/playlist/global/9071491v5/cropresize/300x300.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer </p>
+                        </div>
+                      </div>
+                    </div> -->
+                  </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-black2  text-light  ">
+        <div class="container py-5 ">
+            <div class="row justify-content-center justify-content-md-start">
+                <div class="col-3">
+                    <p class="h2 fw-bolder fs-3">關於網站</p>
+                    <hr>
+                    <p>此網站僅用為專案練習<br>
+                        不作為商業用途使用
+                    </p>
+                </div>
+                <div class="col-3">
+                    <p class="h2 fw-bolder fs-3">資料來源</p>
+                    <hr>
+                    <ul class="list-group list-unstyled">
+                        <li>KKBOX</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./js/index.js"></script>
+</body>
+</html>

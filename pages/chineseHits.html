@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/all.css">
+    <title>KKBOX DEMO</title>
+</head>
+<body class="bg-black1">
+    <nav class=" sticky-top d-sm-flex bg-black bg-opacity-75 text-light mb-6 ">
+        <div class="container  d-sm-flex align-items-center justify-content-between py-1">
+            <p class="h1 fw-bolder fs-2 text-center"><a class="link-light text-decoration-none " href="/pages/index.html">音樂榜</a></p>
+            <div class="text-center d-sm-flex align-items-center">
+                <input class="me-2  form-control fw-bolder" type="search" value="" placeholder="請輸入歌名" data-searchArea="searchArea">
+                <button type="button" class="btn btn-outline-light text-nowrap fw-bolder" data-searchBtn="searchBtn">搜歌</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="mb-10">
+        <div class="container">
+            <p class="h3 display-6 fw-bolder text-light text-center mb-5">華語速爆新歌</p>
+            <div class="text-center mb-8 d-none  d-md-block" data-btns="btns">
+                <button type="button" class="btn btn-outline-light fw-bolder mx-1 " data-start="start">開始試聽</button>
+                <button type="button" class="btn btn-outline-light fw-bolder mx-1 " data-end="end">結束試聽</button>
+            </div>
+            <div class="kkboxPlayer d-none  d-md-block" data-kkboxPlayer="kkboxPlayer"></div>
+            <div class=" row row-cols-1 row-cols-md-2" >
+                <div class="col-md-8 " data-chartsYt="chartsYt"  >
+                   <!-- <iframe  class="" type="text/html" width="100%" height="400px"
+                    src="https://www.youtube.com/embed/vMzsDezjxec"
+                    frameborder="0" allow="autoplay" allowfullscreen>
+                    </iframe> 
+                    <div class="description text-white fw-bolder " style="overflow-y:scroll;height:100px" style="overflow-y:scroll;height:80px">
+                        <p>蔡恩雨 (Priscilla Abby)</p>
+                        <p>假如世上還有一個人</p>
+                        <p>假如世上還有一個人｜全網熱播：https://PriscillaAbby.lnk.to/ISOTAY 蔡恩雨2022 台北演唱會｜即刻開 ...</p>
+                    </div> -->
+                </div>
+                <div class="col-md-4">
+                    <ul class=" list-group " data-hitssSongsList="hitssSongsList" style="height:500px;  overflow-y:scroll">
+                        <!-- <li class="list-group-item list-group-item-action d-flex align-items-center list-group-item-dark">
+                            <img src="https://i.kfs.io/playlist/global/59599602v1259/cropresize/300x300.jpg" style="width:80px;height:80px" alt="">
+                            <div class="title ms-3">
+                                <p class="artist">uhhulsdhfulhlhulhsl</p>
+                                <p class="song">uhhulsdhfulhlhulhsl</p>
+                            </div>
+                        </li>                    -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-black2 text-light  ">
+        <div class="container py-5 ">
+            <div class="row justify-content-center justify-content-md-start">
+                <div class="col-3">
+                    <p class="h2 fw-bolder fs-3">關於網站</p>
+                    <hr>
+                    <p>此網站僅用為專案練習<br>
+                        不作為商業用途使用
+                    </p>
+                </div>
+                <div class="col-3">
+                    <p class="h2 fw-bolder fs-3">資料來源</p>
+                    <hr>
+                    <ul class="list-group list-unstyled">
+                        <li>KKBOX</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="/js/ChineseHits.js"></script>
+</body>
+</html>
