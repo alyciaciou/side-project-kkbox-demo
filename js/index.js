@@ -1,5 +1,4 @@
 import { kkboxConfig } from "./configs.js"
-import { enterEvent } from "./searchValue.js"
 
 const chartSongs = document.querySelector("[data-chartSongs]")
 const hitsSongs = document.querySelector("[data-hitsSongs]")
@@ -119,3 +118,9 @@ async function searchSongsName(){
 //enter輸入搜尋
 const searchArea =document.querySelector("[data-searchArea]")
 searchArea.addEventListener("keyup",enterEvent)
+
+function enterEvent(e){
+  if(e.key ==="Enter"){
+      searchSongsName()
+  }
+}
