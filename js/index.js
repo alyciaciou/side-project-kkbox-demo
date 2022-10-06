@@ -1,5 +1,5 @@
 import { kkboxConfig } from "./configs.js"
-import { searchSongsName,enterEvent } from "./searchValue.js"
+import { enterEvent } from "./searchValue.js"
 
 const chartSongs = document.querySelector("[data-chartSongs]")
 const hitsSongs = document.querySelector("[data-hitsSongs]")
@@ -103,6 +103,18 @@ sessionSongs.addEventListener("click",function(e) {
 //搜尋
 const searchBtn =document.querySelector("[data-searchBtn]")
 searchBtn.addEventListener("click",searchSongsName);
+
+async function searchSongsName(){
+  const searchArea =document.querySelector("[data-searchArea]")
+  let txtvalue = "";
+  if(searchArea.value.trim() === ""){
+        alert("請輸入歌名");
+  }else{
+      txtvalue = searchArea.value;
+      searchArea.value = ""
+      window.location.href=`./pages/search.html?${txtvalue}`
+  }
+}
 
 //enter輸入搜尋
 const searchArea =document.querySelector("[data-searchArea]")
