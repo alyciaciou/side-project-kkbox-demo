@@ -1,4 +1,4 @@
-async function searchSongsName(){
+function searchSongsName(){
     const searchArea =document.querySelector("[data-searchArea]")
     let txtvalue = "";
     if(searchArea.value.trim() === ""){

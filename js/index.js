@@ -103,7 +103,7 @@ sessionSongs.addEventListener("click",function(e) {
 const searchBtn =document.querySelector("[data-searchBtn]")
 searchBtn.addEventListener("click",searchSongsName);
 
-async function searchSongsName(){
+function searchSongsName(){
   const searchArea =document.querySelector("[data-searchArea]")
   let txtvalue = "";
   if(searchArea.value.trim() === ""){
