@@ -18,7 +18,7 @@ function chartsSongsPlay(chartData){
         chartpalyer+=`<li data-songId="${item.id}" class="list-group-item
         list-group-item-action
         align-items-center  d-flex text-light">
-        <img src="${item.album.images[0].url}" style="width:80px;height:80px" alt="">
+        <img src="${item.album.images[1].url}" style="width:80px;height:80px" alt="">
         <div class="title ms-3 me-auto">
             <p class="artist">${item.album.artist.name}</p>
             <p class="song">${item.name}</p>

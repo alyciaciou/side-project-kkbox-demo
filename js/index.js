@@ -31,7 +31,7 @@ function renderChart(chartData){
     chartList.forEach((item) => {
         chartCard += `<div class="col card-hover">
         <div class="card border border-black2 border-4 h-100 rounded-2">
-          <img src="${item.album.artist.images[1].url}" class="card-img-top p-2 bg-black2" alt="" >
+          <img src="${item.album.images[1].url}" class="card-img-top p-2 bg-black2" alt="" >
           <div class="card-body bg-black2 text-light ">
             <h4 class="card-title fw-bolder">${item.album.artist.name}</h4>
             <p class""> ${item.name} </p>
@@ -45,7 +45,7 @@ function renderChart(chartData){
 function conbimeStrCard(item,index){
     return `<div class="col card-hover">
       <div class="card border border-4 border-black2 h-100 rounded-2" >
-        <img src="${item.images[0].url}" class="card-img-top p-2 bg-black2 " alt="">
+        <img src="${item.images[1].url}" class="card-img-top p-2 bg-black2 " alt="">
         <div class="card-body bg-black2 text-white d-flex flex-column justify-content-between" >
           <h4 class="card-title fw-bolder ">${item.title}</h4>
           <p class"mb-auto card-text"> ${item.description} </p>

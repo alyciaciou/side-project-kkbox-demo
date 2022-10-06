@@ -29,7 +29,7 @@ function hitsSongsPlay(hitsData){
         session1spalyer+=`<li data-songId="${item.id}" class="list-group-item
         list-group-item-action
         align-items-center text-light d-flex">
-        <img src="${item.album.images[0].url}" style="width:80px;height:80px" alt="">
+        <img src="${item.album.images[1].url}" style="width:80px;height:80px" alt="">
         <div class="title ms-3 me-auto">
             <p class="artist">${item.album.artist.name}</p>
             <p class="song">${item.name}</p>

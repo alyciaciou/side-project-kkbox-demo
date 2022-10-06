@@ -24,7 +24,7 @@ function renderSearchCard(searchData){
     searchData.forEach((item) => {
         searchStr += `<div class="col card-hover">
         <div class="card border border-4 h-100 border-black2 rounded-2">
-          <img src="${item.album.artist.images[1].url}" class="card-img-top bg-black2 p-2" alt="">
+          <img src="${item.album.images[1].url}" class="card-img-top bg-black2 p-2" alt="">
           <div class="card-body bg-black2 text-light d-flex flex-column justify-content-between">
             <h4 class="card-title fw-bolder fs-6">${item.album.artist.name}</h4>
             <p class"mb-auto"> ${item.name} </p>
@@ -46,7 +46,6 @@ searchResponse.addEventListener("click",(e) =>{
         kkboxPlayer.innerHTML = kkbox;
     }else if(e.target.nodeName !== "BUTTON"){
         kkboxPlayer.innerHTML = `<div></div>`;
-        console.log(e.target.nodeName)
     }
 });
 
