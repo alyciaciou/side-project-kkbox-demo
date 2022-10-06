@@ -6,7 +6,7 @@ async function searchSongsName(){
     }else{
         txtvalue = searchArea.value;
         searchArea.value = ""
-        window.location.href=`./pages/search.html?${txtvalue}`
+        window.location.href=`../pages/search.html?${txtvalue}`
     }
 }
 
