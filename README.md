@@ -9,17 +9,17 @@ https://alyciaciou.github.io/side-project-kkbox-demo/
 
 # 簡介
 *  綜合新歌歌單查看、試聽以及MV觀看
-* item 中、英、日、韓新歌歌單查看、試聽以及MV觀看
-* item 情境歌單查看、試聽以及MV觀看
-* item 歌曲查詢、試聽
+*  中、英、日、韓新歌歌單查看、試聽以及MV觀看
+*  情境歌單查看、試聽以及MV觀看
+*  歌曲查詢、試聽
 
 #使用技術
-* item KKBOX API
-* item YouTube API
-* item JavaScript
-* item Bootstrap5
-* item axios
-* item scss
+*  KKBOX API
+*  YouTube API
+*  JavaScript
+*  Bootstrap5
+*  axios
+*  scss
 
 # 網頁介紹
 ## 首頁
