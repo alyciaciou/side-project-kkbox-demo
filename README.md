@@ -22,3 +22,5 @@ https://alyciaciou.github.io/side-project-kkbox-demo/
 * item scss
 
 # 網頁介紹
+## 首頁
+![GITHUB]( 首頁)
