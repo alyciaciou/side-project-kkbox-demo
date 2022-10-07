@@ -8,7 +8,7 @@
 https://alyciaciou.github.io/side-project-kkbox-demo/
 
 # 簡介
-* item 綜合新歌歌單查看、試聽以及MV觀看
+*  綜合新歌歌單查看、試聽以及MV觀看
 * item 中、英、日、韓新歌歌單查看、試聽以及MV觀看
 * item 情境歌單查看、試聽以及MV觀看
 * item 歌曲查詢、試聽
