@@ -2,7 +2,7 @@
 一起享受世界的聲音
 
 # 音樂榜介紹
-該專案是採用 KKBOX 以及YouTube API 所製作，僅限前端開發練習 DEMO 用。
+該作品採用 KKBOX 以及YouTube API 所製作，僅限前端開發練習 DEMO 用。
 
 # GitHub Pages
 https://alyciaciou.github.io/side-project-kkbox-demo/
