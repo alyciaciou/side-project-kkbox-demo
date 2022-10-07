@@ -23,4 +23,10 @@ https://alyciaciou.github.io/side-project-kkbox-demo/
 
 # 網頁介紹
 ## 首頁
-![GITHUB]( 首頁)
+![GITHUB]( https://github.com/alyciaciou/side-project-kkbox-demo/blob/main/images/%E9%A6%96%E9%A0%81.png)
+
+## 搜尋
+![GITHUB]( https://github.com/alyciaciou/side-project-kkbox-demo/blob/main/images/%E6%90%9C%E5%B0%8B.png)
+
+## 榜單
+![GITHUB]( https://github.com/alyciaciou/side-project-kkbox-demo/blob/main/images/%E6%A6%9C%E5%96%AE.png)
