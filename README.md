@@ -30,3 +30,6 @@ https://alyciaciou.github.io/side-project-kkbox-demo/
 
 ## 榜單
 ![GITHUB]( https://github.com/alyciaciou/side-project-kkbox-demo/blob/main/images/%E6%A6%9C%E5%96%AE.png)
+
+#重要聲明
+本作品內圖片、內容等，純粹為個人練習前端使用，不做任何商業用途。
