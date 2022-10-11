@@ -1,6 +1,6 @@
 const kkboxConfig = {
     headers:{
-        "Authorization":"Bearer TUH1RQNq0zyaTL6kHZ7QRg=="
+        "Authorization":"Bearer GD8tQI8cD9i_Oi-0Bmh2XA=="
     }
 };
 
