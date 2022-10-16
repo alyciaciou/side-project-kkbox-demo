@@ -5226,7 +5226,7 @@ textarea.form-control-lg {
   --bs-list-group-action-hover-color: #495057;
   --bs-list-group-action-hover-bg: #4b4b4b;
   --bs-list-group-action-active-color: #212529;
-  --bs-list-group-action-active-bg: #e9ecef;
+  --bs-list-group-action-active-bg: rgba(88, 97, 105, 0.9098039216);
   --bs-list-group-disabled-color: #6c757d;
   --bs-list-group-disabled-bg: #232323;
   --bs-list-group-active-color: #fff;
