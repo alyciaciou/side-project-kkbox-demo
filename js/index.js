@@ -16,6 +16,7 @@ async function getMusicData(){
         let chartData = chartResponse.data.data
         let hitsSongData = hitsResponse.data.data
         let sessionData = sessionResponse.data.data
+        console.log(chartData)
         renderChart(chartData)
         renderHists(hitsSongData)
         rendersession(sessionData)
